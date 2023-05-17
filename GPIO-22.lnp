@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\gpio-22.o"
+--strict --scatter ".\GPIO-22.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\GPIO-22.map" -o .\GPIO-22.axf
