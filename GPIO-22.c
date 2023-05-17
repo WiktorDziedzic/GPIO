@@ -12,6 +12,7 @@ UWAGI:
 ? W programie testowym nie uzywac LedOn – zauwazyc, ze LedInit zapala diode zerowa.
 Test z punktu 12 na symulatorze i mikrokontrolerze.
 */
+// zmiana dla testu
 
 #define LED0_bm 1<<16
 #define LED1_bm 1<<17
